@@ -1,9 +1,10 @@
 # k6-grafana-influxdb
 k6 성능테스트 결과를 grafana 대시보드로 확인해보자
 
-## docker-compose 실행 command
-** 주의사항 **
+### 주의사항
 - influxdb의 버전 수정시 연결에 이슈가 발생할 수 있으므로 수정없이 진행 권장
+
+## docker-compose 실행 command
 ```
 docker-compose up -d
 ```
